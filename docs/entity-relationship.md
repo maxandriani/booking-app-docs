@@ -1,6 +1,6 @@
 # Entity Relationships
 
-::: mermaid
+```mermaid
 
 erDiagram
 
@@ -40,7 +40,7 @@ Booking ||--o{ Booking2Guest : contains
 Guest ||--o{ Booking2Guest: orders
 Guest |o--o{ GuestContact: "may have"
 
-:::
+```
 
 ---
 
